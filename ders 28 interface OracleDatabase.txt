@@ -1,0 +1,17 @@
+public class OracleDatabase implements IDatabase{
+    public void add(){
+     System.out.println("OR Ekleme");
+ }
+ 
+ public void delete(){
+     System.out.println("OR silme");
+ }
+ 
+ public void get(){
+     System.out.println("OR Elde etme");
+ }
+ 
+ public void update(){
+     System.out.println("OR Guncelleme");
+ }
+}

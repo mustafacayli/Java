@@ -1,0 +1,13 @@
+public class Isci extends Employee{
+    
+    
+    public Isci(String name,String department,int salary){
+        
+        super(name,department,salary);
+        
+        
+    }
+    
+    
+    
+}

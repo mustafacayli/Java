@@ -1,0 +1,42 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		
+		ArrayList<String> groups = new ArrayList<String>();
+		
+		groups.add("Metalica");
+		groups.add("Iron Maiden");
+		groups.add("Guns'n Roses");
+		groups.add("Black Sabbath");
+		
+		
+		System.out.println("ArrayList uzunluk: "+groups.size()+"\n");
+		
+        System.out.println(groups.indexOf("Iron Maiden"));
+
+		groups.remove(1);
+		
+		System.out.println("ArrayList uzunluk: "+groups.size()+"\n");
+        
+
+        
+		
+		for(int i=0;i<groups.size();i++){
+		    
+		    System.out.println(i+". index: "+ groups.get(i));
+		    
+		}
+		
+	}
+}

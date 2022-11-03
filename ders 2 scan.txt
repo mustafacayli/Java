@@ -1,0 +1,30 @@
+
+import java.util.*;
+
+
+
+public class Main{
+
+     public static void main(String[] args){
+
+        
+        Scanner scan = new Scanner(System.in);
+        System.out.println("String bir deger giriniz");
+        
+        
+        /*
+        int a = scan.nextInt();
+        double b = scan.nextDouble();
+        
+        System.out.println("a'degiskenin degeri ="+a+" b'nin degeri ="+b);
+        */
+        
+        String a =scan.nextLine();
+        System.out.println("Girdiginiz string --> "+a);
+        
+        
+        
+     }
+}
+
+

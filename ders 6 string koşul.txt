@@ -1,0 +1,41 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		String sys_kul_adi = "mahmut";
+		String parola = "12345";
+        
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Kullanici adi: ");
+        
+        String kullanici_adi=scan.nextLine();
+        System.out.println("Parola: ");
+        String kul_parola=scan.nextLine();
+        
+        if((!sys_kul_adi.equals(kullanici_adi))&&(parola.equals(kul_parola))){
+            System.out.println("Boyle bir kullanici yok");
+        }
+        
+        else if((sys_kul_adi.equals(kullanici_adi))&&(!parola.equals(kul_parola))){
+            
+            System.out.println("Yanlis parola");
+        }
+        
+        
+		else if((sys_kul_adi.equals(kullanici_adi))&&(parola.equals(kul_parola))){
+		    System.out.println("Giris  basarili");
+		}
+		
+	}
+}
+ 

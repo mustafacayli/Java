@@ -1,0 +1,13 @@
+
+
+public class Student{
+    
+    
+    public static int num_of_students=0;
+    
+    public Student(){
+        num_of_students++;
+    }
+    
+    
+}

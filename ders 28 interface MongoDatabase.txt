@@ -1,0 +1,18 @@
+public class MongoDatabase implements IDatabase{
+    public void add(){
+     System.out.println(" MG Ekleme");
+ }
+ 
+ public void delete(){
+     System.out.println("MG silme");
+ }
+ 
+ public void get(){
+     System.out.println("MG Elde etme");
+ }
+ 
+ public void update(){
+     System.out.println("MG Guncelleme");
+ }
+ 
+}

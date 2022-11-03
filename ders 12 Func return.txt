@@ -1,0 +1,71 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+public class Main
+{
+    
+    public static int toplama (int a,int b,int c){
+        
+        return (a+b+c);
+        
+    }
+    
+    
+    
+	public static void main(String[] args) {
+		
+		System.out.println("Fonksiyondan donen deger: "+toplama(3,4,5));
+		
+		toplama(3,4,5);
+		
+		
+		
+		
+	}
+}
+
+******************************************************************************************************************
+
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+public class Main
+{
+    
+    public static int uc_ile_carp (int a){
+        return a*3;
+    }
+    
+    
+    public static int iki_topla(int a){
+        return a+2;
+    }
+    
+    
+    public static int dort_cikart(int a){
+        return a-4;
+    }
+    
+    
+	public static void main(String[] args) {
+		
+		System.out.println("Sonuc: "+dort_cikart(iki_topla(uc_ile_carp(4))));
+		System.out.println("Sonuc: "+uc_ile_carp(iki_topla(dort_cikart(4))));
+	    System.out.println("Sonuc: "+iki_topla(dort_cikart(uc_ile_carp(4))));	    	
+	}
+}
+
+
+
+
+

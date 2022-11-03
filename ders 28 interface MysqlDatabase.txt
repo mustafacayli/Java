@@ -1,0 +1,20 @@
+public class MysqlDatabase implements IDatabase{
+ 
+ public void add(){
+     System.out.println("Ekleme");
+ }
+ 
+ public void delete(){
+     System.out.println("silme");
+ }
+ 
+ public void get(){
+     System.out.println("Elde etme");
+ }
+ 
+ public void update(){
+     System.out.println("Guncelleme");
+ }
+ 
+    
+}

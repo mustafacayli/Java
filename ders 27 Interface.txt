@@ -1,0 +1,38 @@
+public interface IDatabase{
+  
+  void log();
+  
+    
+}
+
+public class Student implements IDatabase{
+    
+    //Override
+    public void log(){
+        System.out.println("Student added");
+        
+    }
+    
+}
+
+public class Customer implements IDatabase{
+    public void log{
+        System.out.println("Customer added");
+    }
+}
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		//  IDatabase dtb = new IDatabase();
+		
+		Customer cst = new Customer();
+		Student stdn = new Student();
+		
+		stdn.log();
+		cst.log();
+		
+	}
+}

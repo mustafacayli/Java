@@ -1,0 +1,43 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+
+class DatabaseManager{
+    public void AddDatabase(IDatabase database){
+        database.add();
+    }
+    
+    public void DeleteDatabase(IDatabase database){
+        database.delete();
+    }
+    
+    public void UpdateDatabase(IDatabase database){
+        database.update();
+    }
+    
+    public void GetDatabase(IDatabase database){
+        database.get();
+    }
+    
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		//  IDatabase dtb = new IDatabase();
+		
+		DatabaseManager manager = new DatabaseManager();
+		manager.AddDatabase(new MysqlDatabase());
+		manager.AddDatabase(new MongoDatabase());
+		manager.AddDatabase(new OracleDatabase());
+		
+		
+		
+	}
+}

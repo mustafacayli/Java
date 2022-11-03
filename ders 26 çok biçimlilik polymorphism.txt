@@ -1,0 +1,77 @@
+class Animal{
+    
+    private String name;
+    public Animal(String name){
+        this.name=name;
+    }
+    
+    public String getName(){
+        return name;
+    }
+    
+    public void setName(String name){
+        this.name=name;
+    }
+    
+    public void speak(){
+        System.out.println("Hayvan ses cikariyor");
+    }
+    
+    
+}
+
+
+class Bird extends Animal{
+    
+    public Bird (String name){
+        super(name);
+    }
+    public void speak(){
+        System.out.println(getName()+" Otuyor... ");
+    }
+}
+
+
+
+class Dog extends Animal{
+    public Dog (String name){
+        super(name);
+    }
+    public void speak(){
+        System.out.println(getName()+" Havliyor...");
+    }
+}
+
+
+
+
+class Cat extends Animal{
+    public Cat (String name){
+        super(name);
+    }
+    public void speak(){
+        System.out.println(getName()+" Miyavliyor");
+    }
+}
+
+
+
+
+
+public class Main {
+    public static void speaktry(Animal animal){
+        animal.speak();
+    }
+    
+    public static void main(String[] args){
+        
+    
+        speaktry(new Dog("celal"));
+    }
+}
+
+
+
+
+
+

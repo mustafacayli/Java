@@ -1,0 +1,36 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.Scanner;
+
+public class Main
+{
+    
+    public static void Hi() {
+        int toplam,sayi1,sayi2;
+        Scanner scn = new Scanner(System.in);
+		System.out.println("Iki adet sayi giriniz");
+		sayi1 = scn.nextInt();
+		sayi2 = scn.nextInt();
+		
+        toplam=sayi1+sayi2;
+        
+        System.out.println("Girmis oldugunuz sayilarin toplami: "+toplam);
+    }
+    
+    
+	public static void main(String[] args) {
+		
+		
+		
+		Hi();
+		
+		
+		
+	}
+}
